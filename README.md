@@ -2,22 +2,6 @@
 
 Pequeno template de API REST em **Java 17** que demonstra autenticação e autorização
 usando **Spring Boot 3**, **Spring Security** e **JWT**.  
-Ideal para projetos‑exemplo, POCs ou como ponto de partida para APIs protegidas.
-
----
-
-## Principais recursos
-
-| Recurso | Descrição |
-|---------|-----------|
-| **Autenticação JWT** | Geração e validação de tokens com `com.auth0:java-jwt`. |
-| **Password hashing** | Senhas armazenadas com **BCrypt** (`PasswordEncoder`). |
-| **Stateless** | `SessionCreationPolicy.STATELESS` — sem sessão no servidor. |
-| **Roles** | Autorização baseada em papéis (`ROLE_USER`, `ROLE_ADMIN` etc.). |
-| **Filtros personalizados** | `SecurityFilter` processa o header `Authorization: Bearer <token>`. |
-| **Arquitetura limpa** | Camadas claras (`controllers`, `services`, `infra/security`, `repositories`). |
-
----
 
 ##  Tecnologias
 
